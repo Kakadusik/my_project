@@ -90,23 +90,6 @@ python manage.py createsuperuser
 ```bash
 
 python manage.py runserver
-```
-
-📚 API Endpoints
-
-Товары
-```
-    GET /api/products/ - список товаров
-
-    POST /api/products/create/ - создание товара
-```
-
-Заказы
-
-```
-    POST /api/orders/create/ - создание заказа
-
-    POST /api/orders/payment/ - обработка платежа
 
 ```
 
